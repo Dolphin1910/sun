@@ -1,0 +1,167 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#wrapper {
+    padding: 15px;
+}
+
+.common-container {
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid gray;
+}
+
+.button-container {
+    margin-bottom: 20px;
+}
+
+.button-container>p:first-child {
+    margin-bottom: 8px;
+}
+
+.button-container .selected-type, .button-container  .amount, .test12__amount-bs {
+    margin: 10px 0;
+}
+
+.button-container .selected-type, .button-container  .amount>span, .test12__amount-bs {
+    color: red;
+    font-style: oblique;
+}
+
+.result-container {
+    margin: 20px 0;
+    display: none;
+}
+
+.bs-list, .all-BS, .dau-so-list, .matching-numbs-list {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.bs-list li, .dau-so-list li, .matching-numbs-list li {
+    margin-bottom: 15px;
+}
+
+.bs-list li span, .all-BS li span, .matching-numbs-list li span {
+    margin-right: 8px;
+    width: 18px;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.all-BS li span, .matching-numbs-list li span {
+    text-align: center;
+}
+
+.all-BS li span {
+    font-weight: 400;
+}
+
+.bs-list .bs__numbers {
+    margin-bottom: 2px;
+}
+
+.bs-list .bs__parameters {
+    font-size: 15px;
+    color: #e64545;
+}
+
+.bs__parameters p {
+    margin-bottom: 2px;
+}
+
+.test12__sledN-resl span, .test12__sledN-resl span {
+    font-size: 15px;
+    color: #f50000;
+    font-style: italic;
+}
+
+.err-noti {
+    color: red;
+    margin: 10px 0;
+}
+
+.radio-btn-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 7px;
+}
+
+.filter-result-container {
+    margin-top: 25px;
+    display: none;
+}
+
+.dau-so-list li p {
+    margin-bottom: 3px;
+    color: red;
+    font-size: 15px;
+}
+
+.dau-so-list li p:first-child {
+    color: #000000;
+    font-size: 20px;
+}
+
+.dau-so-list p span, .matching-numbs-list li .match-numb:last-child {
+    color: red;
+    font-weight: 600;
+}
+
+.match-numb {
+    color: #1a9fff;
+}
+
+.show-messi-container {
+    display: none;
+}
+
+.directional-topBottom-container {
+    position: fixed;
+    right: 0;
+    top: 45%;
+}
+
+.scroll-top-btn, .scroll-bottom-btn {
+    text-decoration: none;
+    width: 50px;
+    background: #fff;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 2px 5px #bebebe, -2px -2px 7px #bebebe;
+    cursor: pointer;
+}
+
+.scroll-top-btn {
+    pointer-events: auto;
+    transition: all .4s;
+    margin-bottom: 25px;
+}
+
+.numb-of-result {
+    color: red;
+    margin-left: 7px;
+}
+
+.filter-result-c__analysis > span {
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+}
+
+.filter-result-c__analysis > span > span{
+    font-weight: 600;
+}
+
+@media only screen and (min-width: 768px) {
+    #wrapper {
+        display: flex;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dolphin</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="./beauty/boy.css">
+</head>
+<body>
+    
+    <div id="wrapper">
+        <div class="button-container">
+            <button type="button" class="btn btn-primary test1-btn">1</button>
+            <button type="button" class="btn btn-success test2-btn">2</button>
+            <div class="form-check show-messi-container" style="margin-top: 10px;">
+                <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input" id="show-messi"> Messi.
+                </label>
+            </div>
+            <div class="form-check filter-numb-container" style="margin-top: 10px;">
+                <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input" id="filter-numb-cb"> 0
+                </label>
+            </div>
+            <p class="amount">
+                <span>0</span>
+            </p>
+        </div>
+        <div class="common-container">
+            <form>
+                <div class="form-group">
+                  <input type="number" min="1" class="form-control" id="test12-value">
+                  <p class="test12__amount-bs" data-toggle="collapse" data-target=".all-BS"><span>0</span></p>
+                  <ul class="all-BS collapse"></ul>
+                </div>
+                <div class="form-group" style="margin-bottom: 1.8rem; margin-top: 2rem;">
+                    <input type="number" min="1" class="form-control" value="1" id="bs-value">
+                </div>
+                <div class="form-group">
+                    <div class="radio-btn-container">
+                        <label class="form-check-label" for="radio1">
+                            <input type="radio" class="form-check-input" id="radio1" name="optradio" value="0">AA
+                        </label>
+                        <label class="form-check-label" for="radio2">
+                            <input type="radio" class="form-check-input" id="radio2" name="optradio" value="1">AB
+                        </label>
+                        <label class="form-check-label" for="radio3">
+                            <input type="radio" class="form-check-input" id="radio3" name="optradio" value="2">CD...
+                        </label>
+                    </div>
+                    <input type="number" min="1" class="form-control" id="filtered-numb" style="margin-top: 1rem;">
+                    <input type="text" class="form-control" id="any-text" style="margin-top: 1rem;">
+
+                </div>
+                <button type="button" class="btn btn-info fuck-btn">Fuck</button>
+                <button type="button" class="btn btn-warning you-btn">You</button>
+                <button type="button" class="btn btn-danger okie-btn">Okie</button>
+            </form>
+
+            <div class="result-container">
+                <div class="bs-list-container">
+                    <ul class="bs-list"> </ul>
+                </div>
+                <div class="test12__sledN-resl">
+                    <p></p>
+                </div>
+                <div class="test12__USledN-resl">
+                    <p></p>
+                </div>
+            </div>
+
+            <div class="filter-result-container">
+                <div class="filter-result-c__match-first-numb">
+                    <h5>Fit: <span class="numb-of-result">0</span> </h5>
+                    <ul class="dau-so-list"> </ul>
+                </div>
+                <div class="filter-result__inconsistent">
+                    <h5>Remaining: <span class="numb-of-result">0</span> </h5>
+                    <ul class="dau-so-list"> </ul>
+                </div>
+                <div class="filter-result-c__filtered-numb">
+                    <h5>Okie: <span class="numb-of-result">0</span> </h5>
+                    <ul class="matching-numbs-list"> </ul>
+                </div>
+                <div class="filter-result-c__couple-numb">
+                    <h5>Lucky: <span class="numb-of-result">0</span> </h5>
+                    <ul class="matching-numbs-list"> </ul>
+                </div>
+                <div class="filter-result-c__analysis">
+                </div>
+            </div>
+
+        </div>
+        <p class="err-noti"></p>
+    </div>
+    <div class="directional-topBottom-container">
+        <a href="#" class="scroll-top-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-alien" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00abfb" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M11 17a2.5 2.5 0 0 0 2 0" />
+                <path d="M12 3c-4.664 0 -7.396 2.331 -7.862 5.595a11.816 11.816 0 0 0 2 8.592a10.777 10.777 0 0 0 3.199 3.064c1.666 1 3.664 1 5.33 0a10.777 10.777 0 0 0 3.199 -3.064a11.89 11.89 0 0 0 2 -8.592c-.466 -3.265 -3.198 -5.595 -7.862 -5.595z" />
+                <line x1="8" y1="11" x2="10" y2="13" />
+                <line x1="16" y1="11" x2="14" y2="13" />
+            </svg>
+        </a>
+        <div href="#" class="scroll-bottom-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-alien" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00abfb" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M11 17a2.5 2.5 0 0 0 2 0" />
+                <path d="M12 3c-4.664 0 -7.396 2.331 -7.862 5.595a11.816 11.816 0 0 0 2 8.592a10.777 10.777 0 0 0 3.199 3.064c1.666 1 3.664 1 5.33 0a10.777 10.777 0 0 0 3.199 -3.064a11.89 11.89 0 0 0 2 -8.592c-.466 -3.265 -3.198 -5.595 -7.862 -5.595z" />
+                <line x1="8" y1="11" x2="10" y2="13" />
+                <line x1="16" y1="11" x2="14" y2="13" />
+            </svg>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <script type="module" src="./complex/okie.js"></script>
+</body>
+</html>
