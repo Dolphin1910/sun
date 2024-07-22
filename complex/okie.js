@@ -118,7 +118,7 @@ $('.okie-btn').click(() => {
         });
         $('.filter-result-c__analysis').html(_html);
     }
-    
+    $('.filter-result-container').css('display', 'block');
 });
 
 function setHTMLOfAllBS(test12) {
